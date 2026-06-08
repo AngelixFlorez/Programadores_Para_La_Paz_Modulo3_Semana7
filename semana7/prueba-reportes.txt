@@ -1,0 +1,9 @@
+Al consultar GET /reportes después de haber registrado un reporte mediante POST, el servidor devuelve un arreglo JSON con todos los reportes almacenados en memoria. Inicialmente el arreglo está vacío, pero luego de agregar un reporte, la respuesta muestra el objeto con id, tipo y descripción. Por ejemplo, si se registró un reporte de tipo "Infraestructura" con descripción "Daño en alumbrado público", la respuesta será:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
